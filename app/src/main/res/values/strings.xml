@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">News App</string>
+    <!-- Text to display in the list when there are no news [CHAR LIMIT=NONE] -->
+    <string name="no_news">No news found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+    <string name="settings_min_magnitude_label">Minimum Magnitude</string>
+    <string name="settings_min_magnitude_key" translatable="false">min_mag</string>
+    <string name="settings_min_magnitude_default" translatable="false">5</string>
+    <string name="News_section_World">world</string>
+    <string name="List_preference_key">News choice</string>
+    <string-array name="section_pref_choice">
+        <item>Football</item>
+        <item>World</item>
+        <item>Fashion</item>
+        <item>Culture</item>
+        <item>Business</item>
+    </string-array>
+
+    <string-array name="section_pref_value">
+        <item>football</item>
+        <item>world</item>
+        <item>fashion</item>
+        <item>culture</item>
+        <item>business</item>
+
+    </string-array>
+
+</resources>

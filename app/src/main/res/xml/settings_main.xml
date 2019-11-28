@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="settings_title">
+
+
+    <ListPreference
+        android:defaultValue="@string/News_section_World"
+        android:entries="@array/section_pref_choice"
+        android:entryValues="@array/section_pref_value"
+        android:key="@string/List_preference_key"
+        android:title="@string/List_preference_key" />
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_min_magnitude_default"
+        android:inputType="numberDecimal"
+        android:key="@string/settings_min_magnitude_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_min_magnitude_label" />
+</PreferenceScreen>
